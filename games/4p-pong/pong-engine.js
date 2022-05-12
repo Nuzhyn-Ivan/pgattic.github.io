@@ -105,10 +105,10 @@ function keyDownHandler(e) {
 		player1.down = true;
 	}
 	if (numOfPlayers >= 2) {
-		if (e.key == "p" || e.key == "P") {
+		if (e.key == "p" || e.key == "6") {
 			player2.up = true;
 		}
-		if (e.key == ";" || e.key == ":") {
+		if (e.key == ";" || e.key == "3") {
 			player2.down = true;
 		}
 	}
