@@ -141,10 +141,10 @@ function keyUpHandler(e) {
 		player1.down = false;
 	}
 	if (numOfPlayers >= 2) {
-		if (e.key == "p" || e.key == "P") {
+		if (e.key == "p" || e.key == "6") {
 			player2.up = false;
 		}
-		if (e.key == ";" || e.key == ":") {
+		if (e.key == "l" || e.key == "3") {
 			player2.down = false;
 		}
 	}
